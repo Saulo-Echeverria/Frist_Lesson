@@ -1,27 +1,46 @@
-# Hi, I'm Saulo Echeverria! 👋
 
-I'm a businessman by day and a dreamer by night. Striving for a balance between hard work and fun, I value a good laugh, engaging conversation, and spontaneous adventure. A lover of animals and nature, I'm always on the hunt for new knowledge and challenges.
 
-## Studying 📚
-Currently pursuing a degree in Computer Engineering, I'm learning:
-- Web Development (HTML, CSS, JavaScript)
-- UX/UI Design
-- Cybersecurity
-- Python
-- And much more!
+<!--
+  <<< Author notes: Step 2 >>>
+  Start this step by acknowledging the previous step.
+  Define terms and link to docs.github.com.
+-->
 
-## Work 💼
-- **CEO of WebBranding**: Leading a digital marketing agency, focused on website creation and design.
+## Step 2: Commit a file
 
-## Hobbies 🎵
-- **Music**: A former band member, I still dabble in music creation.
-- **Programming**: Constantly exploring new technologies and languages.
+_You created a branch! :tada:_
 
-## Connect with me 🌐
-- [LinkedIn](www.linkedin.com/in/saulo-echeverria-04543714b)
+Creating a branch allows you to edit your project without changing the `main` branch. Now that you have a branch, it’s time to create a file and make your first commit!
 
-## Projects 🛠️
-- **Agency Website**: Developed in WordPress, an example of my work in design and web development.
+**What is a commit?**: A _[commit](https://docs.github.com/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)_ is a set of changes to the files and folders in your project. A commit exists in a branch. For more information, see "[About commits](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/about-commits)".
 
-## Let's Share the Path! 🚀
-If you also believe that life is a journey and not a destination, let's share the path. I'm always open to collaborations and fresh ideas.
+### :keyboard: Activity: Your first commit
+
+The following steps will guide you through the process of committing a change on GitHub. A commit records changes in renaming, changing content within, creating a new file, and any other changes made to your project. For this exercise, committing a change requires first adding a new file to your new branch.
+
+1. On the **< > Code** tab in the header menu of your repository, make sure you're on your new branch `my-first-branch`.
+
+2. Select the **Add file** drop-down and click **Create new file**.
+
+   ![create new file option](/images/create-new-file.png)
+
+3. In the **Name your file...** field, enter `PROFILE.md`.
+
+   **Note:** `.md` is a file extension that creates a Markdown file. You can learn more about Markdown by visiting "[Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)" in our docs or by taking the "[Communicating using Markdown](https://github.com/skills/communicate-using-markdown)" Skills course.
+
+4. In the **Enter file contents here** area, copy the following content to your file:
+
+   ```
+   Welcome to my GitHub profile!
+   ```
+
+   <img alt="profile.md file screenshot" src="/images/my-profile-file.png"/>
+
+5. Click **Commit changes...** in the upper right corner above the contents box. For commits, you can enter a short commit message that describes what changes you made. This message helps others know what's included in your commit. GitHub offers a simple default message, but let's change it slightly for practice. First, enter `Add PROFILE.md` in the first text-entry field titled "Commit message".
+
+   <img alt="screenshot of adding a new file with a commit message" src="/images/commit-full-screen.png" />
+
+6. In this lesson, we'll ignore the other fields and click **Commit changes**.
+7. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+
+
